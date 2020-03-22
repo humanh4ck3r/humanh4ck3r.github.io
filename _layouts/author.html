@@ -20,7 +20,7 @@ layout: page
   <h2>نوشته ها</h2>
 
   <ul>
-    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp:"post","post.is_generated != true" %}
+    {% assign filtered_posts = site.posts %}
     {% for post in filtered_posts %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
