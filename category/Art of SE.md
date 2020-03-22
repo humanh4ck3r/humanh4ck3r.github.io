@@ -1,7 +1,7 @@
 ---
 layout: category
 title: هنر مهندسی اجتماعی
-slug: artofse
+slug: Art-of-SE
 description: 
 ---
 
