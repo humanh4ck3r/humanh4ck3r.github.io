@@ -10,7 +10,9 @@
                 <div id="grid" class="row flex-grid">
                     {% assign posts = site.posts | where_exp:"post","post.is_generated != true" %}
                     {% for post in posts %}
-                        {% if post.category == page.slug %}
+                    
+                        {% if post.category == "هنر مهندسی اجتماعی" %}
+                    
                             <article class="box-item">
                                 <div class="box-body">
                                     {% if post.image %}
